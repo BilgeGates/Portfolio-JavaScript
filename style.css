@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: #252525;
+  background: #fcfcfc;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.titles {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  text-transform: uppercase;
+  overflow: hidden;
+  background: #eddfde;
+  width: 90%;
+  height: 3rem;
+  margin: auto;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.3em 0;
+  margin-top: 1.5rem;
+}
+
+.author-about {
+  font-size: 1.1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 90%;
+  margin: auto;
+}
+
+.featured-heading {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.projects {
+  background: #eddfde;
+  transition: 0.7s ease;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  width: 20rem;
+  height: 15rem;
+  margin-top: 1.5rem;
+  line-height: 15rem;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.projects:hover {
+  transform: scale(1.1);
+  background-color: pink;
+}
+
+.title {
+  position: absolute;
+  z-index: 1;
+  background: #eddfde;
+  left: 0;
+  padding: 0 15px;
+  font-size: 2rem;
+}
+
+.title-animated {
+  animation: slide 1s ease;
+  padding: 0 4.5rem;
+  font-size: 2rem;
+}
+
+.tech-stack {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: scale(1.2) translateX(-8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
