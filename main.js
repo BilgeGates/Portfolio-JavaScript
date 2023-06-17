@@ -1,9 +1,10 @@
 const programmingLanguages = [
-  "JavaScript",
-  "Python",
-  "JavaScript",
-  "CSS",
   "HTML",
+  "CSS",
+  "JavaScript",
+  "Tailwind CSS",
+  "Bootstrap",
+  "ReactJS",
 ];
 
 const emojiSpan = document.querySelector(".title");
@@ -34,7 +35,14 @@ setInterval(() => {
 }, 1000);
 
 const tech = document.querySelector(".tech-animated");
-const arr = ["Redux", "NodeJs", "HTML", "JavaScript", "CSS", "Bootstrap"];
+const arr = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Tailwind CSS",
+  "Bootstrap",
+  "ReactJS",
+];
 let i = 0;
 
 setInterval(() => {
